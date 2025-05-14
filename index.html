@@ -20,10 +20,23 @@
 
         <h3>Projects</h3>
         <p>As I go along my projects will go here.</p>
-        <a href="#">Contact Form</a>
+        
 
-        <h4>Contact</h4>
-        <p>If you'd like to reach out, you can fill out the <a href="#">Contact Form</a>.</p>
+        <h4>Contact Me</h4>
+        <p>If you'd like to reach out, you can fill out the form below.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+           <label for="message">Message:</label><br>
+           <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+
+           <button type="submit">Send</button>
+
+        </form>
         </section>
     </body>
 </html>
