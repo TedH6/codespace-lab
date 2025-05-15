@@ -1,0 +1,15 @@
+body{
+    background-color: #fefefe; /* soft background */
+    font-family: "Segoe UI", sans-sereif;
+    color: #333;
+    text-align: left; /* aligns text to the left */
+}
+
+ h1{ /*targets h1 element */
+    color: #ff0800;
+    font-family: "Helvectic Neue", sans-serif;
+    background-color: #ffbb01;
+    padding: 10px;
+    border-radius: 8px;
+
+}
