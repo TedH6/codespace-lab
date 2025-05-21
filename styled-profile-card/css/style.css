@@ -1,0 +1,33 @@
+.card{
+    background-color: #f03524;
+    padding: 20px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.name{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(66, 0, 128);
+    margin-bottom: 10px;
+}
+
+.bio{
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+}
+
+/* ID overrides class */
+#bio {
+  color: red;
+  font-weight: bold;
+}
+
+/* Test specificity - this will NOT override the ID rule */
+p.bio {
+  color: purple;
+}
