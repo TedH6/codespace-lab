@@ -1,50 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="About Me page">
-        <meta name="author" content="Alex Gilliam">
-        <link rel="stylesheet" href="style.css">
-        <title>About Me</title>
-    </head>
-    <body>
-        <h1>Alex Gilliam</h1>
-       
-        <section>
-        <p>My name is Alex Gilliam. I am learning how to become a self-taught web developer. My goals for this course are to have a good understanding of HTML,CSS, and JavaScript  </p> <!-- This is my bio section-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="About Me page">
+  <meta name="author" content="Alex Gilliam">
+  <link rel="stylesheet" href="style.css">
+  <title>Alex Gilliam's Portfolio</title>
+</head>
 
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>HTML</strong></li>
-            <li><strong>CSS</strong></li>
-        </ul>
+<body>
+  <header>
+    <h1>Alex Gilliam</h1>
+    <h2>Front End Web Developer</h2>
 
-        <h3>Projects</h3>
-        <p>As I go along my projects will go here.</p>
-        <ul>
-            <li> <a href="html-review/index.html">Html Review</a></li>
-            <li> <a href="profile-card/index.html">Profile Card</a></li>
-            <li> <a href="box-model/index.html">Box Model</a></li>
-            <li> <a href="styled-profile-card/index.html">Style Profile Card</a></li>
-        </ul>
-        
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <h4>Contact Me</h4>
-        <p>If you'd like to reach out, you can fill out the form below.</p>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
+  <!-- About Section -->
+  <section id="about">
+    <h3>About Me</h3>
+    <p>My name is Alex Gilliam. I am learning how to become a self-taught web developer. My goals for this course are to have a good understanding of HTML, CSS, and JavaScript.</p>
+  </section>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+  <!-- Experience Section -->
+  <section id="experience">
+    <h3>Skills</h3>
+    <ul>
+      <li><strong>HTML</strong></li>
+      <li><strong>CSS</strong></li>
+    </ul>
+  </section>
 
-           <label for="message">Message:</label><br>
-           <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h3>My Projects</h3>
+    <p>As I go along, my projects will go here:</p>
+    <ul>
+      <li><a href="html-review/index.html">HTML Review</a></li>
+      <li><a href="profile-card/index.html">Profile Card</a></li>
+      <li><a href="box-model/index.html">Box Model</a></li>
+      <li><a href="styled-profile-card/index.html">Styled Profile Card</a></li>
+      <li><a href="website-recreation/index.html">Google Homepage</a></li>
+    </ul>
+  </section>
 
-           <button type="submit">Send</button>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <p>If you'd like to reach out, you can fill out the form below.</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
 
-        </form>
-        </section>
-    </body>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
 </html>
