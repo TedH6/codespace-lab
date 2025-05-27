@@ -10,6 +10,7 @@ h1{
     font-size: 36px;
     border-bottom: 4px solid teal;
     padding-bottom: 10px;
+    
 }
 
 header nav ul {
@@ -25,12 +26,14 @@ header nav ul {
 h2,h3,h4{
     color: grey;
     font-size: 25px;
+    display: flex;
 }
 
 p{
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
+    display: flex;
 }
 
 ul{
@@ -71,3 +74,32 @@ button:hover {
     background-color: darkslategray;
 }
 
+/* Phone Media Queries */
+@media (max-width: 600px){
+   header nav{
+    flex-direction: column;
+    gap: 1rem;
+    padding:10px;
+   }
+   body{
+    padding: 20px;
+   }
+
+   h1,h2,h3,p,ul{
+    font-size: 16px;
+   }
+
+}
+
+/* Tablets Media Queries */
+
+@media (max-width: 1024px){
+    header nav{
+        gap: 2rem;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+}
